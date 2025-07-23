@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khuyến mãi - Rick Group</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body class="page-transition">
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <a href="index.html"><i class="fa-solid fa-gamepad"></i> Rick Group</a>
+    </div>
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="bang-gia.html">Bảng giá</a></li>
+        <li><a href="khuyen-mai.html" class="active">Khuyến mãi</a></li>
+        <li><a href="danh-sach-game.html">Game</a></li>
+        <li><a href="su-kien.html">Sự kiện</a></li>
+      </ul>
+      <a href="tel:0123456789" class="nav-call"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="page-header">
+    <h1 class="neon-title">Khuyến mãi</h1>
+    <p>Các chương trình ưu đãi hấp dẫn tại Rick Group</p>
+  </header>
+
+  <!-- Khuyến mãi đặc biệt -->
+  <section class="section">
+    <h2 class="neon-title"><i class="fa-solid fa-fire"></i> Khuyến mãi đặc biệt</h2>
+    <div class="promo-cards large">
+      <div class="promo-card">
+        <div class="promo-badge hot">Hot</div>
+        <i class="fa-solid fa-gift"></i>
+        <div class="promo-title">Giảm 20% cho khách mới</div>
+        <div class="promo-desc">Áp dụng cho lần đầu đến quán. Không giới hạn số giờ.</div>
+        <div class="promo-time">Hiệu lực: 01/06 - 30/06 
+          <span class="promo-countdown" data-end="2024-06-30T23:59:59"></span>
+        </div>
+        <a href="#" class="promo-btn open-booking" data-service="Giảm 20% cho khách mới" data-desc="Áp dụng cho lần đầu đến quán. Không giới hạn số giờ." data-price="Giảm 20%" data-time="01/06 - 30/06">Đặt chỗ ngay</a>
+      </div>
+
+      <div class="promo-card">
+        <div class="promo-badge best">Best</div>
+        <i class="fa-solid fa-users"></i>
+        <div class="promo-title">Tặng 1 giờ cho nhóm 4 người</div>
+        <div class="promo-desc">Áp dụng cho nhóm từ 4 người. Tặng thêm 1 giờ chơi miễn phí.</div>
+        <div class="promo-time">Hiệu lực: 01/07 - 15/07 
+          <span class="promo-countdown" data-end="2024-07-15T23:59:59"></span>
+        </div>
+        <a href="#" class="promo-btn open-booking" data-service="Tặng 1 giờ cho nhóm 4 người" data-desc="Áp dụng cho nhóm từ 4 người. Tặng thêm 1 giờ chơi miễn phí." data-price="Tặng 1 giờ" data-time="01/07 - 15/07">Đặt chỗ ngay</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Khuyến mãi theo giờ -->
+  <section class="section">
+    <h2 class="neon-title"><i class="fa-solid fa-clock"></i> Khuyến mãi theo giờ</h2>
+    <div class="promo-cards large">
+      <div class="promo-card">
+        <div class="promo-badge">Sáng</div>
+        <i class="fa-solid fa-sun"></i>
+        <div class="promo-title">Giờ vàng buổi sáng</div>
+        <div class="promo-desc">Giảm 10% từ 8h - 12h hàng ngày</div>
+        <div class="promo-time">Áp dụng hàng ngày</div>
+        <a href="#" class="promo-btn open-booking" data-service="Giờ vàng buổi sáng" data-desc="Giảm 10% từ 8h - 12h hàng ngày" data-price="Giảm 10%" data-time="Áp dụng hàng ngày">Đặt chỗ ngay</a>
+      </div>
+
+      <div class="promo-card">
+        <div class="promo-badge">Đêm</div>
+        <i class="fa-solid fa-moon"></i>
+        <div class="promo-title">Combo đêm khuya</div>
+        <div class="promo-desc">Giảm 15% từ 22h - 6h hôm sau</div>
+        <div class="promo-time">Áp dụng các ngày trong tuần</div>
+        <a href="#" class="promo-btn open-booking" data-service="Combo đêm khuya" data-desc="Giảm 15% từ 22h - 6h hôm sau" data-price="Giảm 15%" data-time="Áp dụng các ngày trong tuần">Đặt chỗ ngay</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Khuyến mãi Combo -->
+  <section class="section" id="combo-km">
+    <h2 class="neon-title"><i class="fa-solid fa-tags"></i> Combo tiết kiệm</h2>
+    <div class="promo-cards large">
+      <div class="promo-card">
+        <div class="promo-badge">PS5</div>
+        <i class="fa-brands fa-playstation"></i>
+        <div class="promo-title">PS5 + Nước</div>
+        <div class="promo-desc">Chơi PS5 kèm nước uống miễn phí</div>
+        <div class="promo-price">35.000 VNĐ/giờ</div>
+        <a href="#" class="promo-btn open-booking" data-service="PS5 + Nước" data-desc="Chơi PS5 kèm nước uống miễn phí" data-price="35.000 VNĐ/giờ" data-time="">Đặt chỗ ngay</a>
+      </div>
+
+      <div class="promo-card">
+        <div class="promo-badge">NET</div>
+        <i class="fa-solid fa-desktop"></i>
+        <div class="promo-title">NET + Đồ ăn nhẹ</div>
+        <div class="promo-desc">Chơi NET kèm đồ ăn nhẹ</div>
+        <div class="promo-price">15.000 VNĐ/giờ</div>
+        <a href="#" class="promo-btn open-booking" data-service="NET + Đồ ăn nhẹ" data-desc="Chơi NET kèm đồ ăn nhẹ" data-price="15.000 VNĐ/giờ" data-time="">Đặt chỗ ngay</a>
+      </div>
+
+      <div class="promo-card">
+        <div class="promo-badge best">Best</div>
+        <i class="fa-solid fa-gem"></i>
+        <div class="promo-title">Combo Full</div>
+        <div class="promo-desc">PS5 + NET + Nước + Đồ ăn</div>
+        <div class="promo-price">45.000 VNĐ/giờ</div>
+        <a href="#" class="promo-btn open-booking" data-service="Combo Full" data-desc="PS5 + NET + Nước + Đồ ăn" data-price="45.000 VNĐ/giờ" data-time="">Đặt chỗ ngay</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Rick Group. All rights reserved.</p>
+  </footer>
+
+  <!-- Nút cuộn lên đầu trang -->
+  <button id="scrollTopBtn" title="Lên đầu trang"><i class="fa-solid fa-arrow-up"></i></button>
+  <div id="popup" class="popup" style="display: flex;">
+    <div class="popup-content animate-popup">
+      <span class="close" id="closePopup">×</span>
+      <h2><i class="fa-solid fa-star"></i> Chào mừng đến với Rick Group!</h2>
+      <p>Khuyến mãi đặc biệt: Giảm 20% cho khách mới tuần này!</p>
+    </div>
+  </div>
+
+  <!-- Booking Popup cho đặt chỗ -->
+  <div id="bookingPopup" class="booking-popup">
+    <div class="booking-popup-content">
+      <span class="close" id="closeBookingPopup">×</span>
+      <h2>Đặt chỗ dịch vụ</h2>
+      <div id="bookingExtraInfo" class="booking-extra-info" style="margin-bottom:10px;"></div>
+      <form id="bookingForm" style="display: block;">
+        <div style="display: flex; flex-wrap: wrap; gap: 18px;">
+          <div class="form-col">
+            <label>Họ tên:<input type="text" name="name" required=""></label>
+            <label>Số điện thoại:<input type="tel" name="phone" required=""></label>
+            <label>Số người:<input type="number" name="people" min="1" max="20" value="1" required=""></label>
+            <label>Ghi chú:<textarea name="note" rows="2"></textarea></label>
+          </div>
+          <div class="form-col">
+            <label>Dịch vụ:
+              <select name="service" id="bookingService">
+                <option value="PS5">PS5</option>
+                <option value="NET (PC)">NET (PC)</option>
+                <option value="Combo PS5 + NET">Combo PS5 + NET</option>
+              </select>
+            </label>
+            <label id="comboLabel">Combo:
+              <select name="combo" id="bookingCombo">
+                <option value="">Không chọn combo</option>
+                <option value="PS5 + Nước">PS5 + Nước (35.000 VNĐ/giờ)</option>
+                <option value="NET + Đồ ăn nhẹ">NET + Đồ ăn nhẹ (15.000 VNĐ/giờ)</option>
+                <option value="Combo Full">Combo Full (PS5 + NET + Nước + Đồ ăn: 45.000 VNĐ/giờ)</option>
+              </select>
+            </label>
+            <div id="comboInfo" class="combo-info"></div>
+            <label>Ngày:<input type="date" name="date" required=""></label>
+            <label>Giờ:<input type="time" name="time" required=""></label>
+          </div>
+        </div>
+        <button type="submit" class="booking-btn">Gửi đặt chỗ</button>
+      </form>
+      <div id="bookingSuccess" class="booking-success" style="display:none;">Đặt chỗ thành công! Chúng tôi sẽ liên hệ xác nhận.</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danh sách Game - Rick Group</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body class="page-transition">
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <a href="index.html"><i class="fa-solid fa-gamepad"></i> Rick Group</a>
+    </div>
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="bang-gia.html">Bảng giá</a></li>
+        <li><a href="khuyen-mai.html">Khuyến mãi</a></li>
+        <li><a href="danh-sach-game.html" class="active">Game</a></li>
+        <li><a href="su-kien.html">Sự kiện</a></li>
+      </ul>
+      <a href="tel:0123456789" class="nav-call"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="page-header">
+    <h1>Danh sách Game</h1>
+    <p>Khám phá các tựa game hấp dẫn tại Rick Group</p>
+  </header>
+
+  <!-- Game Filters -->
+  <div class="section">
+    <div class="game-filters">
+      <div class="filter-tag active" data-filter="all">Tất cả</div>
+      <div class="filter-tag" data-filter="ps5">PS5</div>
+      <div class="filter-tag" data-filter="net">NET (PC)</div>
+      <div class="filter-tag" data-filter="multiplayer">Chơi nhiều người</div>
+      <div class="filter-tag" data-filter="single">Chơi một người</div>
+    </div>
+  </div>
+
+  <!-- PS5 Games -->
+  <section class="section" id="game-ps5">
+    <div class="game-category">
+      <i class="fa-brands fa-playstation"></i>
+      <h2>Game PS5</h2>
+    </div>
+    <div class="game-grid">
+      <div class="game-card" data-type="ps5 multiplayer" id="fifa-23">
+        <div class="game-badge hot">Hot</div>
+        <i class="fa-solid fa-futbol"></i>
+        <h3>FIFA 23</h3>
+        <div class="game-info">
+          <span><i class="fa-solid fa-gamepad"></i> Thể thao</span>
+          <span><i class="fa-solid fa-users"></i> 2-4 người</span>
+        </div>
+        <p class="game-desc">Trải nghiệm bóng đá đỉnh cao với đồ họa chân thực, nhiều giải đấu và đội bóng nổi tiếng thế giới.</p>
+        <a href="#" class="game-btn open-booking" data-service="PS5">Đặt chơi ngay</a>
+      </div>
+
+      <div class="game-card" data-type="ps5 single">
+        <div class="game-badge best">Best</div>
+        <i class="fa-solid fa-hammer"></i>
+        <h3>God of War Ragnarök</h3>
+        <div class="game-info">
+          <span><i class="fa-solid fa-sword"></i> Hành động</span>
+          <span><i class="fa-solid fa-user"></i> 1 người</span>
+        </div>
+        <p class="game-desc">Hành trình của Kratos và Atreus trong thế giới Bắc Âu với đồ họa và cốt truyện xuất sắc.</p>
+        <a href="#" class="game-btn open-booking" data-service="PS5">Đặt chơi ngay</a>
+      </div>
+
+      <div class="game-card" data-type="ps5 single">
+        <div class="game-badge new">New</div>
+        <i class="fa-solid fa-spider"></i>
+        <h3>Spider-Man 2</h3>
+        <div class="game-info">
+          <span><i class="fa-solid fa-mask"></i> Phiêu lưu</span>
+          <span><i class="fa-solid fa-user"></i> 1 người</span>
+        </div>
+        <p class="game-desc">Swing qua New York như Spider-Man với đồ họa next-gen và gameplay mãn nhãn.</p>
+        <a href="#" class="game-btn open-booking" data-service="PS5">Đặt chơi ngay</a>
+      </div>
+    </div>
+
+    <div class="game-grid">
+      <div class="game-card" data-type="ps5 multiplayer">
+        <div class="game-badge">Fight</div>
+        <i class="fa-solid fa-hand-fist"></i>
+        <h3>Street Fighter 6</h3>
+        <div class="game-info">
+          <span><i class="fa-solid fa-fire"></i> Đối kháng</span>
+          <span><i class="fa-solid fa-users"></i> 2 người</span>
+        </div>
+        <p class="game-desc">Game đối kháng đỉnh cao với đồ họa tuyệt đẹp và hệ thống combo đa dạng.</p>
+        <a href="#" class="game-btn open-booking" data-service="PS5">Đặt chơi ngay</a>
+      </div>
+
+      <div class="game-card" data-type="ps5 multiplayer">
+        <div class="game-badge">Party</div>
+        <i class="fa-solid fa-puzzle-piece"></i>
+        <h3>Overcooked</h3>
+        <div class="game-info">
+          <span><i class="fa-solid fa-kitchen-set"></i> Party Game</span>
+          <span><i class="fa-solid fa-users"></i> 2-4 người</span>
+        </div>
+        <p class="game-desc">Game nấu ăn vui nhộn, thích hợp cho nhóm bạn và gia đình.</p>
+        <a href="#" class="game-btn open-booking" data-service="PS5">Đặt chơi ngay</a>
+      </div>
+
+      <div class="game-card" data-type="ps5 single">
+        <div class="game-badge">RPG</div>
+        <i class="fa-solid fa-dragon"></i>
+        <h3>Final Fantasy XVI</h3>
+        <div class="game-info">
+          <span><i class="fa-solid fa-wand-sparkles"></i> Nhập vai</span>
+          <span><i class="fa-solid fa-user"></i> 1 người</span>
+        </div>
+        <p class="game-desc">Phiêu lưu trong thế giới giả tưởng với cốt truyện sâu sắc và hệ thống chiến đấu đỉnh cao.</p>
+        <a href="#" class="game-btn open-booking" data-service="PS5">Đặt chơi ngay</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PC Games -->
+  <section class="section" id="game-net">
+    <div class="game-category">
+      <i class="fa-solid fa-desktop"></i>
+      <h2>Game NET (PC)</h2>
+    </div>
+    <div class="game-grid">
+      <div class="game-card" data-type="net multiplayer" id="valorant">
+        <div class="game-badge hot">Hot</div>
+        <i class="fa-solid fa-gun"></i>
+        <h3>Valorant</h3>
+        <div class="game-info">
+          <span><i class="fa-solid fa-crosshairs"></i> FPS</span>
+          <span><i class="fa-solid fa-users"></i> 5v5</span>
+        </div>
+        <p class="game-desc">Game bắn súng chiến thuật 5v5 với các đặc vụ có năng lực độc đáo.</p>
+        <a href="#" class="game-btn open-booking" data-service="NET">Đặt chơi ngay</a>
+      </div>
+
+      <div class="game-card" data-type="net multiplayer" id="lol">
+        <div class="game-badge best">Best</div>
+        <i class="fa-solid fa-chess"></i>
+        <h3>League of Legends</h3>
+        <div class="game-info">
+          <span><i class="fa-solid fa-chess-knight"></i> MOBA</span>
+          <span><i class="fa-solid fa-users"></i> 5v5</span>
+        </div>
+        <p class="game-desc">MOBA đình đám với hơn 150 tướng và lối chơi chiến thuật đa dạng.</p>
+        <a href="#" class="game-btn open-booking" data-service="NET">Đặt chơi ngay</a>
+      </div>
+
+      <div class="game-card" data-type="net multiplayer">
+        <div class="game-badge">Classic</div>
+        <i class="fa-solid fa-bomb"></i>
+        <h3>CS:GO</h3>
+        <div class="game-info">
+          <span><i class="fa-solid fa-crosshairs"></i> FPS</span>
+          <span><i class="fa-solid fa-users"></i> 5v5</span>
+        </div>
+        <p class="game-desc">Game bắn súng FPS kinh điển với lối chơi căng thẳng và kỹ năng cao.</p>
+        <a href="#" class="game-btn open-booking" data-service="NET">Đặt chơi ngay</a>
+      </div>
+    </div>
+
+    <div class="game-grid">
+      <div class="game-card" data-type="net multiplayer">
+        <div class="game-badge new">New</div>
+        <i class="fa-solid fa-helmet-battle"></i>
+        <h3>Dota 2</h3>
+        <div class="game-info">
+          <span><i class="fa-solid fa-chess-knight"></i> MOBA</span>
+          <span><i class="fa-solid fa-users"></i> 5v5</span>
+        </div>
+        <p class="game-desc">MOBA phức tạp với chiều sâu chiến thuật và nhiều hero độc đáo.</p>
+        <a href="#" class="game-btn open-booking" data-service="NET">Đặt chơi ngay</a>
+      </div>
+
+      <div class="game-card" data-type="net single">
+        <div class="game-badge">RPG</div>
+        <i class="fa-solid fa-hat-wizard"></i>
+        <h3>Lost Ark</h3>
+        <div class="game-info">
+          <span><i class="fa-solid fa-wand-sparkles"></i> MMORPG</span>
+          <span><i class="fa-solid fa-globe"></i> Online</span>
+        </div>
+        <p class="game-desc">MMORPG với đồ họa tuyệt đẹp và hệ thống chiến đấu hack-n-slash.</p>
+        <a href="#" class="game-btn open-booking" data-service="NET">Đặt chơi ngay</a>
+      </div>
+
+      <div class="game-card" data-type="net multiplayer">
+        <div class="game-badge">Racing</div>
+        <i class="fa-solid fa-car-side"></i>
+        <h3>Forza Horizon 5</h3>
+        <div class="game-info">
+          <span><i class="fa-solid fa-flag-checkered"></i> Đua xe</span>
+          <span><i class="fa-solid fa-globe"></i> Online</span>
+        </div>
+        <p class="game-desc">Game đua xe thế giới mở với đồ họa siêu thực và nhiều xe độc đáo.</p>
+        <a href="#" class="game-btn open-booking" data-service="NET">Đặt chơi ngay</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Popup -->
+  <div id="bookingPopup" class="booking-popup">
+    <div class="booking-popup-content animate-popup">
+      <span class="close" id="closeBookingPopup">&times;</span>
+      <h2>Đặt chỗ chơi game</h2>
+      <form id="bookingForm">
+        <label>Họ tên:<input type="text" name="name" required></label>
+        <label>Số điện thoại:<input type="tel" name="phone" required></label>
+        <label>Game:<input type="text" id="bookingGame" readonly></label>
+        <label>Số người:<input type="number" name="people" min="1" max="10" value="1" required></label>
+        <label>Ngày:<input type="date" name="date" required></label>
+        <label>Giờ:<input type="time" name="time" required></label>
+        <button type="submit" class="booking-btn glow-effect">Gửi đặt chỗ</button>
+      </form>
+      <div id="bookingSuccess" class="booking-success" style="display:none;">
+        <i class="fa-solid fa-circle-check"></i>
+        Đặt chỗ thành công! Chúng tôi sẽ liên hệ xác nhận sớm nhất.
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Rick Group. All rights reserved.</p>
+  </footer>
+
+  <!-- Nút cuộn lên đầu trang -->
+  <button id="scrollTopBtn" title="Lên đầu trang"><i class="fa-solid fa-arrow-up"></i></button>
+  <div id="popup" class="popup" style="display: flex;">
+    <div class="popup-content animate-popup">
+      <span class="close" id="closePopup">×</span>
+      <h2><i class="fa-solid fa-star"></i> Chào mừng đến với Rick Group!</h2>
+      <p>Kho game cực hot và khủng!</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script>
+    // Game filter functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterTags = document.querySelectorAll('.filter-tag');
+      const gameCards = document.querySelectorAll('.game-card');
+
+      filterTags.forEach(tag => {
+        tag.addEventListener('click', () => {
+          // Remove active class from all tags
+          filterTags.forEach(t => t.classList.remove('active'));
+          // Add active class to clicked tag
+          tag.classList.add('active');
+          
+          const filter = tag.dataset.filter;
+          
+          gameCards.forEach(card => {
+            if (filter === 'all' || card.dataset.type.includes(filter)) {
+              card.style.display = 'block';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // Booking functionality
+      const bookingBtns = document.querySelectorAll('.open-booking');
+      const bookingPopup = document.getElementById('bookingPopup');
+      const closeBooking = document.getElementById('closeBookingPopup');
+      const bookingGame = document.getElementById('bookingGame');
+      
+      bookingBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const gameName = btn.closest('.game-card').querySelector('h3').textContent;
+          bookingGame.value = gameName;
+          bookingPopup.classList.add('open');
+        });
+      });
+
+      if (closeBooking) {
+        closeBooking.onclick = () => bookingPopup.classList.remove('open');
+      }
+    });
+  </script>
+</body>
+</html>
